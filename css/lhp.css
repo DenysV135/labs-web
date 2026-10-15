@@ -1,0 +1,37 @@
+.healthcare-image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    padding-right: 30px;
+}
+
+.lhp {
+    display: flex;
+    flex-direction: column;
+}
+
+.lhp-section {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+@media (max-width: 768px) {
+    .lhp-section { 
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }}
+
+.lhp-divider {
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin: 30px 0; 
+    justify-content: center;
+    margin: 30px auto;
+}
+
+
