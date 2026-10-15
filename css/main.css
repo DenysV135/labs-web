@@ -1,0 +1,43 @@
+.element {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.searchInput {
+    height: 40px;
+    font-size: 20px;
+}
+
+.Btn {
+    height: 50px;
+    border-radius: 40px;
+    width: 100px;
+    background: #4baedb;
+    margin: 10px;
+    color: #f7f5f5;
+}
+
+.Btn.delete{
+    background-color: red;
+    width: 100px;
+    border-radius: 10px;
+    height: 37px;
+    border: #fff;
+    cursor: pointer;
+}
+
+.Btn.sort {
+    width: 150px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+#itemsContainer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    align-items: flex-start;
+}
