@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додати лічильник</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="nav-tabs ret">
+        <a href="index.html" class="nav-tabs return">Повернутися до View Page</a>
+    </div>
+
+    <div class="form-container">
+        <h2>Новий лічильник</h2>
+        <form id="createForm" novalidate>
+            <div class="form-group">
+                <label>Назва лічильника:</label>
+                <input type="text" id="nameInput" required placeholder="Напр: Лічильник води">
+                <div class="form-group">
+                    <label>Показник лічильника:</label>
+                    <input type="number" id="valueInput" required min="0" placeholder="0">
+                    <div class="form-group">
+                        <label>Чи працює лічильник</label>
+                        <div>
+                            <input class="inputcheckbox" type="checkbox" id="statusCheckbox" checked>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-submit">Зберегти</button>
+                </div>
+            </div>
+
+        </form>
+        <div class="modal-overlay" id="errorModal">
+            <div class="modal-content">
+                <h3 class="alert">Помилка!</h3>
+                <p id="modalMessage">Текст помилки</p>
+                <button class="btn-close" id="closeModalBtn">Зрозуміло</button>
+            </div>
+        </div>
+
+        <script type="module" src="js/create.js"></script>
+    </div>
+</body>
+
+</html>
