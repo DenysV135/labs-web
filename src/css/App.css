@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+  /* font-size: calc(10px + 2vmin); */
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coming-soon{
+  min-height: 50vh;
+  padding: 50px;
+  text-align: center;
+}
