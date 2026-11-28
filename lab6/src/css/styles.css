@@ -1,0 +1,10 @@
+@import "./normalize.min.css";
+@import "./index.css";
+@import "./App.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./hero.css";
+@import "./products.css";
+@import "./catalog.css";
+@import "./itemPage.css";
+@import "./cart.css";
